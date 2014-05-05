@@ -1,0 +1,77 @@
+body {
+    background-image: url('bg.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 97.5vh;
+    margin: 0;
+    padding: 0;
+}
+
+.fullwidth {
+    width: 98%;
+    margin: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(255,255,255,.5);
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 3vh;
+}
+
+.navbar {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+    color: #fff;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 3vh;
+    height: 50px;
+    position: fixed;
+    bottom: 0px;
+    padding-left: 5px;
+    padding-top: 2px;
+    vertical-align: middle;
+    line-height: 50px;
+}
+
+.me {
+    font-size: 3.5vh;
+    font-weight: bold;
+}
+
+.divider {
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+.header {
+    margin-top: 2.5vh;
+    padding: 5px;
+    font-size: 3em;
+    text-align: center;
+}
+
+.content {
+    margin-top: 4vh;
+    padding: 5px;
+}
+
+a.navlink:link {
+    color: white;
+    text-decoration: none;
+}
+
+a.navlink:visited {
+    color: white;
+    text-decoration: none;
+}
+
+a.navlink:active {
+    color: white;
+    text-decoration: none;
+}
+
+.belowtitle {
+    font-size: 5vh;
+}
