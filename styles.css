@@ -72,6 +72,14 @@ a.navlink:active {
     text-decoration: none;
 }
 
+.navlink:hover {
+	text-shadow: 1px 1px 0.4em #808080;
+}
+
+.navlink {
+	transition: ease 0.5s;
+}
+
 .belowtitle {
     font-size: 5vh;
 }
